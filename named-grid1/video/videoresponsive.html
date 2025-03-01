@@ -1,0 +1,49 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="utf-8"> 
+<title>HTML5 responsive video sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+
+<style>
+main { 
+   width: 50%;
+   margin: auto auto;
+}
+
+	
+video { 
+   width: 100%; 
+   min-width:300px;
+}
+	
+@media screen and (max-width: 800px) {
+  main { 
+	width: 95%; 
+	}
+}
+</style>
+
+</head>
+
+<body>
+
+<main>
+
+<header>
+<h1>My Responsive Video</h1>
+</header>
+
+<h1>Traffic</h1>
+
+<video controls="controls">
+<source src="traffic.mp4" type="video/mp4">
+<source src="traffic.webm" type="video/webm">
+<source src="traffic.ogv" type="video/ogg">
+  Video tag not supported. Download the video <a href="traffic.mp4">Traffic</a>.
+</video>
+
+</main>
+
+</body>
+</html>
