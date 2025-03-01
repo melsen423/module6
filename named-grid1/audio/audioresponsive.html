@@ -1,0 +1,50 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="utf-8"> 
+<title>HTML5 audio responsive sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+
+<style>
+
+main { 
+	width: 50%;
+	margin: auto auto;
+	}
+
+audio { 
+	width: 100%; 
+	min-width:300px;
+	}
+	
+@media screen and (max-width: 600px) {
+  main { 
+	width: 95%;
+	  }
+	}
+	
+</style>
+
+</head>
+
+<body>
+
+<main>
+
+<header>
+<h1>My Audio with More Styles</h1>
+</header>
+
+<h2>The Fox and the Stork</h2>
+
+<audio controls>
+<source src="fox_and_stork.ogg" type="audio/ogg">
+<source src="fox_and_stork.mp3" type="audio/mp3">
+Your browser does not support the audio tag! You can find the audio file here: 
+  <a href="fox_and_stork.mp3">The Fox and the Stork</a> (.mp3, 1.7MB, running time: 1m52s)
+</audio>
+
+</main>
+
+</body>
+</html>
