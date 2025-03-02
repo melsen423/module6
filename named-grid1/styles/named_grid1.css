@@ -40,8 +40,8 @@
         }
 
 
-        /*FIRST BREAK POINT === tablet */
-        @media only screen and (max-width : 800px) {
+        /*FIRST BREAK POINT === desktop */
+        @media only screen and (max-width : 1000px) {
             body {
                 background: blueviolet;
             }
@@ -62,9 +62,32 @@
             }
 
         }
+        
+        /*SECOND BREAK POINT === tablet */
+        @media only screen and (max-width : 480px) {
+            body {
+                background: teal;
+            }
 
-        /*SECOND BREAK POINT === mobile */
-        @media only screen and (max-width : 500px) {
+            .grid-container {
+                display: grid;
+                grid-template-areas:
+                    'nav nav nav nav nav nav'
+                    'header header header header header header'
+                    'main main main main aside aside'
+                    'footer footer footer footer footer footer';
+                grid-gap: .5em;
+                padding: .5em;
+            }
+
+            ul li {
+                display: inline-block;
+            }
+
+        }
+
+        /*THIRD BREAK POINT === mobile */
+        @media only screen and (max-width : 320px) {
 
             body {
                 background: rgb(0, 255, 89);
