@@ -38,7 +38,53 @@
 
         <aside>
             <h2>Favorite Movie</h2><br>
-            <p><a href="/module6/named-grid1/video/videoresponsive.html">There Will Be Blood</a></p>
+            <style>
+
+                body { 
+                  width: 50%;
+                  margin: auto auto; 
+                }
+                
+                .mycontainer {
+                  width: 100%;
+                  position: relative;
+                  overflow: hidden;
+                  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+                }
+                
+                .myiframe {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  bottom: 0;
+                  right: 0;
+                  width: 100%;
+                  height: 100%;
+                  border: none;
+                }
+                
+                @media screen and (max-width: 800px) {
+                  body { 
+                    width: 95%;
+                    }
+                }
+                    
+                </style>
+                
+                </head>
+                
+                <body>
+                
+                <h1>There Will Be Blood</h1>
+                
+                
+                <div class="mycontainer">
+                <iframe class="myiframe"
+                src="https://www.youtube.com/embed/0FIm5ATyAY0?si=6O16xZMVhyfuQrPs">
+                </iframe>
+                </div>
+                
+                </body>
         </aside>
 
         <footer>
