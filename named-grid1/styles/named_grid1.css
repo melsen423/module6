@@ -1,26 +1,26 @@
         header {
             grid-area: header;
-            background-color: yellow;
+            background-color: green;
         }
 
         nav {
             grid-area: nav;
-            background-color: gray;
+            background-color: blue;
         }
 
         main {
             grid-area: main;
-            background-color: orange;
+            background-color: pink;
         }
 
         aside {
             grid-area: aside;
-            background-color: bisque;
+            background-color: coral;
         }
 
         footer {
             grid-area: footer;
-            background-color: green;
+            background-color: whitesmoke;
         }
 
         .grid-container {
@@ -41,9 +41,9 @@
 
 
         /*FIRST BREAK POINT === tablet */
-        @media only screen and (max-width : 900px) {
+        @media only screen and (max-width : 800px) {
             body {
-                background: blue;
+                background: blueviolet;
             }
 
             .grid-container {
@@ -64,10 +64,10 @@
         }
 
         /*SECOND BREAK POINT === mobile */
-        @media only screen and (max-width : 600px) {
+        @media only screen and (max-width : 500px) {
 
             body {
-                background: fuchsia;
+                background: rgb(0, 255, 89);
             }
 
             .grid-container {
