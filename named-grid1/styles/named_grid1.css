@@ -2,8 +2,10 @@
             grid-area: header;
             background-color: green;
             position: relative;
-            top: 30px;
-            left: 90px;
+            left: 10px;
+            right: 10px;
+            top: 10px;
+            bottom: 10px;
         }
 
         nav {
