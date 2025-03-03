@@ -1,9 +1,9 @@
         header {
             grid-area: header;
             background-color: green;
-            position: relative;
-            left: 5px;
-            right: 5px;
+            position: fixed;
+            left: 0px;
+            right: 0px;
             top: 5px;
             bottom: 5px;
         }
@@ -115,4 +115,10 @@
                 display: inline-block;
             }
 
-        }        
+        } 
+
+/*image details === img */        
+img {
+    width:auto;
+    height:auto;
+}
