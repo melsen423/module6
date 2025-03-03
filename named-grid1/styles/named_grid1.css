@@ -1,7 +1,7 @@
         header {
             grid-area: header;
             background-color: green;
-            position: fixed;
+            position: relative;
             left: 0px;
             right: 0px;
             top: 5px;
