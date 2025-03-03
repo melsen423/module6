@@ -1,7 +1,7 @@
         header {
             grid-area: header;
             background-color: green;
-            position: fixed;
+            position: relative;
             left: 5px;
             right: 5px;
             top: 5px;
@@ -41,7 +41,7 @@
 
 
         ul li {
-            list-style-type: none;
+            list-style-type: square;
         }
 
 
@@ -64,6 +64,7 @@
 
             ul li {
                 display: inline-block;
+                text-align: center;
             }
 
         }
@@ -114,4 +115,4 @@
                 display: inline-block;
             }
 
-        }      
+        }        
