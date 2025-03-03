@@ -1,7 +1,7 @@
         header {
             grid-area: header;
             background-color: green;
-            position: relative;
+            position: fixed;
             left: 5px;
             right: 5px;
             top: 5px;
@@ -35,7 +35,7 @@
                 'nav nav main main main aside'
                 'nav nav main main main aside'
                 'nav nav footer footer footer footer';
-            grid-gap: .5em;
+            grid-gap: .3em;
            
         }
 
@@ -58,8 +58,8 @@
                     'header header header header header header'
                     'main main main main aside aside'
                     'footer footer footer footer footer footer';
-                grid-gap: .5em;
-                padding: .5em;
+                grid-gap: .3em;
+                padding: .3em;
             }
 
             ul li {
@@ -81,8 +81,8 @@
                     'header header header header header header'
                     'main main main main aside aside'
                     'footer footer footer footer footer footer';
-                grid-gap: .5em;
-                padding: .5em;
+                grid-gap: .3em;
+                padding: .3em;
             }
 
             ul li {
@@ -106,8 +106,8 @@
                     'main main main main main main'
                     'aside aside aside aside aside aside'
                     'footer footer footer footer footer footer';
-                grid-gap: .5em;
-                padding: .5em;
+                grid-gap: .3em;
+                padding: .3em;
             }
 
             ul li {
