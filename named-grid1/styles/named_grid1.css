@@ -1,6 +1,9 @@
         header {
             grid-area: header;
             background-color: green;
+            position: relative;
+            top: -30px;
+            left: 90px;
         }
 
         nav {
